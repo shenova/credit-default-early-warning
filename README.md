@@ -13,14 +13,6 @@ datasets for credit risk modeling (originally UCI Machine Learning
 Repository, credited to I-Cheng Yeh; also mirrored on Kaggle as
 `uciml/default-of-credit-card-clients-dataset`).
 
-`data/uci_credit_default_raw.csv` is the original wide-format file (one row
-per client, 6 months of bill/payment/repayment-status columns). Kaggle itself
-wasn't reachable from this environment, so the file was pulled from a public
-GitHub mirror of the same dataset
-(Navneet2409/credit-card-default-prediction) — worth independently
-verifying against the Kaggle/UCI source before treating it as authoritative
-for anything beyond a portfolio project.
-
 The target (`default payment next month`) is whether the account defaulted
 in October 2005, so this is a genuine early-warning setup: 6 months of
 repayment behavior (Apr-Sep) predicting the following month's outcome.
