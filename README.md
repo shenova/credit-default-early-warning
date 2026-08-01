@@ -153,6 +153,3 @@ Good "what would you do next" answers for an interview:
   feature set for production
 - **Cost-sensitive thresholds** — tune risk-tier cutoffs against an actual cost
   matrix (missed default vs. false flag) instead of percentile-based bands
-
-
-*Built by Shenova Davis · [LinkedIn](https://linkedin.com/in/shenova-davis) · [GitHub](https://github.com/shenova)*
