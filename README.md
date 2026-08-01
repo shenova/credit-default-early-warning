@@ -154,16 +154,5 @@ Good "what would you do next" answers for an interview:
 - **Cost-sensitive thresholds** — tune risk-tier cutoffs against an actual cost
   matrix (missed default vs. false flag) instead of percentile-based bands
 
-## Resume Framing
-
-> Built an end-to-end credit early-warning system (LightGBM + SHAP + LLM
-> explainability layer) on the UCI Default of Credit Card Clients dataset
-> (30K real accounts), achieving 0.776 ROC AUC — in line with published
-> benchmarks — using 3-month behavioral trend features to flag at-risk
-> accounts before default; added an LLM layer generating underwriter-ready
-> risk narratives via the Claude API, visualized through an interactive
-> Streamlit dashboard with portfolio and account-level views.
-
----
 
 *Built by Shenova Davis · [LinkedIn](https://linkedin.com/in/shenova-davis) · [GitHub](https://github.com/shenova)*
